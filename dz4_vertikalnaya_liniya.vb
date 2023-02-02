@@ -16,7 +16,7 @@ Module Program
         Console.SetCursorPosition(b, c)
         For j = 0 To a - 1
             For i As Integer = 0 To 1
-                Console.Write("E")
+                Console.Write("1")
             Next
             Console.SetCursorPosition(l, Console.GetCursorPosition().Left + 1)
         Next
